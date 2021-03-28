@@ -31,15 +31,8 @@ function Root() {
                 })).join('')}
             </div>
         </section>
-
-        <!-- ${Toolbar()} -->
-
-        ${GamesDrawer()}
+        <!-- ${GamesDrawer()} -->
         ${EditorDialog({id: 'Config'})}
-
-        <div id="Snow">
-            ${Snow()}
-        </div>
     `
 }
 
